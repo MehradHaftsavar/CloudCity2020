@@ -1,0 +1,87 @@
+body, html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding:0;
+  overflow:hidden;
+}
+
+
+
+.leftpane {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-image:url("nurse5.jpg");
+  background-position: center;
+    background-size: cover;
+}
+
+/*.middlepane {
+    width: 34%;
+    height: 100%;
+    float: left;
+    background-image:url("nurse1.jpg");
+  background-position: center;
+    background-size: cover;}*/
+
+.rightpane {
+ width: 50%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-image:url("nurse4.jpg");
+  background-position: center;
+    background-size: cover;
+}
+
+.leftpane:hover{
+transform: scale(1.05);
+}
+
+/*.middlepane:hover{
+transform: scale(1.05);
+}*/
+
+.rightpane:hover{
+transform: scale(1.05);
+}
+
+.rightpane h1{
+  color: black;
+  text-align: center;
+  position:absolute;
+top: 40%;
+left: 25%;
+font-weight: 900;
+  font-size: 3em;
+  margin: 0.2em;
+    text-shadow: 
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(-15deg)
+    rotateZ(0deg);
+}
+
+.leftpane h1{
+  color: black;
+  
+  position:absolute;
+top: 40%;
+left: 25%;
+font-weight: 900;
+  font-size: 3em;
+  margin: 0.2em;
+    text-shadow: 
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(15deg)
+    rotateZ(0deg);
+}

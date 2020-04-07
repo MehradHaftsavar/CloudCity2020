@@ -1,0 +1,104 @@
+.body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto 0 auto;  
+  width:100%; 
+  text-align:center;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+ background-image: url("doc.jpg");
+  background-position: center;
+    background-size: cover;
+}
+
+.right {
+  right: 0;
+  background-image: url("fam1.jpg");
+  background-position: center;
+    background-size: cover;
+}
+.p{
+  font-size:12px;
+  text-decoration: none;
+  color:#ffffff;
+}
+.h1{
+  font-size:1.5em;
+  color:#525252;
+  margin-left:90px;
+}
+
+.box{
+position:absolute;
+top: 40%;
+left: 35%;
+width: 150px;
+  background:transparent;
+  border-radius:0px;
+  
+/*   padding:0px 0px 0px 90px; */
+  }
+
+.email{
+  background:transparent;
+  border: black 1px solid;
+  border-bottom: black 2px solid;
+  padding: 8px;
+  width:250px;
+  color:black;
+  margin-top:10px;
+  font-size:1em;
+  border-radius:4px;
+}
+
+.password{
+   background:transparent;
+  border: black 1px solid;
+  border-bottom: black 2px solid;
+  padding: 8px;
+  width:250px;
+  color:black;
+  margin-top:10px;
+  font-size:1em;
+  border-radius:4px;
+}
+
+.btnDoc, .btnPat{
+  background:#2ecc71;
+  width:125px;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+  color:white;
+  border-radius:4px;
+  border: #27ae60 1px solid;
+  
+  margin-top:20px;
+  margin-bottom:20px;
+  
+  margin-left:56px;
+  font-weight:800;
+  font-size:0.8em;
+}
+
+
+.btnDoc:hover{
+  background:#2CC06B; 
+}
+
+.btnPat:hover{
+  background:#2CC06B; 
+}
+
